@@ -15,7 +15,6 @@ const Nav = async () => {
           <li>
             <Link href={'/'}>
               <Logo />
-              <span>Home</span>
             </Link>
           </li>
           {!session ? (
